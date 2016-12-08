@@ -30,6 +30,7 @@ import javax.security.auth.x500.X500Principal;
 /**
  * Classe présentant des méthodes permettant la manipulation aisée des keystores.
  * @author Julien Lepagnot
+ * @modifiers Maximilien Therras, Nathan LeDigabel, Mathieu Althuser
  */
 public class KeyStoreTools {
 
@@ -40,7 +41,7 @@ public class KeyStoreTools {
     private char[] storepass;
 
     // Associations des OID pouvant apparaître dans un nom distingué
-    // à compléter avec les OID de péfixe 1.2.840.113549.1.9
+    // à compléter avec les OID de préfixe 1.2.840.113549.1.9
     private static final Map<String, String> OID_MAP = new HashMap<>();
     static {
         OID_MAP.put("1.2.840.113549.1.9.1", "emailAddress");

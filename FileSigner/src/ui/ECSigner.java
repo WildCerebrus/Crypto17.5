@@ -20,6 +20,7 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 /**
  * Une classe permettant designer des documents avec le DSA sur les courbes elliptiques
  * @author Patrick Guichet
+ * @modifiers Maximilien Therras, Nathan LeDigabel, Mathieu Althuser
  */
 public class ECSigner {
     // Installation du provider BouncyCastle
