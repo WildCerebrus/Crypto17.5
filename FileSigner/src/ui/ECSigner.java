@@ -98,6 +98,7 @@ public class ECSigner {
         while((nl = in.read(buffer)) != -1)
             // remise à jour de l'objet signant avec les octets lus
             signer.update(buffer, 0, nl);
+        in.close();
         return Base64.encodeBase64String(signer.sign());
     }
 
@@ -136,6 +137,7 @@ public class ECSigner {
         while((nl = in.read(buffer)) != -1)
             // remise à jour de l'objet signant avec les octets lus
             signer.update(buffer, 0, nl);
+        in.close();
         return signer.verify(Base64.decodeBase64(tagB64));
     }
 

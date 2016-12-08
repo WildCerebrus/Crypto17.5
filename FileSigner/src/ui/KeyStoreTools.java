@@ -23,9 +23,7 @@ import java.security.interfaces.RSAPublicKey;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.crypto.KeyGenerator;
+
 import javax.crypto.SecretKey;
 import javax.security.auth.x500.X500Principal;
 

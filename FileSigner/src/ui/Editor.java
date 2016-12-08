@@ -2,7 +2,6 @@ package ui;
 import java.awt.Dimension;
 import java.awt.GridLayout;
 
-import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
